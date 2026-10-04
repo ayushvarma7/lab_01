@@ -26,6 +26,16 @@ def fun4(x, y, z):
     return x + y + z
 
 
+def fun5(a, b):
+    if b == 0:
+        raise ValueError("Cannot modulo by zero.")
+    return a % b
+
+
+def fun6(a, b):
+    return a ** b
+
+
 def divide(a, b):
     if b == 0:
         raise ValueError("Cannot divide by zero.")
