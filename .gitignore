@@ -1,0 +1,19 @@
+# Virtual environment
+bin/
+lib/
+lib64/
+include/
+share/
+pyvenv.cfg
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Misc
+.DS_Store
+*.env
