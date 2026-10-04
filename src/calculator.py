@@ -2,12 +2,28 @@ def add(a, b):
     return a + b
 
 
+def fun1(a, b):
+    return a + b
+
+
 def subtract(a, b):
+    return a - b
+
+
+def fun2(a, b):
     return a - b
 
 
 def multiply(a, b):
     return a * b
+
+
+def fun3(a, b):
+    return a * b
+
+
+def fun4(x, y, z):
+    return x + y + z
 
 
 def divide(a, b):
